@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	*{
+		
+		margin: 0%;
+		padding: 0%;
+		
+	}
+	body{
+		background-image: url(https://images.freeimages.com/images/large-previews/01a/technology-background-1632715.jpg?fmt=webp&w=500);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	form{
+		position: absolute;
+		top: 7%;
+		left:34%;
+		background-color:whitesmoke;
+		opacity: 70%;
+		border-radius: 5px;
+		padding:70px;
+		padding-top: 30px;
+		padding-bottom:30px ;
+		-webkit-box-shadow: 0 0 5px 7px #040404;
+    	-moz-box-shadow: 0 0 5px 7px  #040404;
+   		 box-shadow: 0 0 5px 7px #040404;
+		
+	}
+	#reset{
+		margin-left: 20px;
+	}
+	a{
+		position: absolute;
+		top: 82%;
+		left:45% ;
+		background-color: transparent;
+	}
+	.lab{
+		background-color:transparent;
+		font-size: 20px;
+	}
+	.inpt{
+		
+		border-radius: 5px;
+		height: 25px;
+		width: 225px;
+		
+	}
+	.inpt,textarea{
+	background-color:cadetblue;
+	font-size: 16px;
+	outline-color: rgb(128, 64, 64);
+	color: black;
+	opacity: 90%;
+	
+		
+	}
+	h1{
+	font-family: "Sixtyfour", sans-serif;
+	color:rgb(64, 0, 0);
+	margin-bottom:20px;
+	}
+	#div{
+		position: absolute;
+		top: 76.9%;
+		left: 42.5%;
+	}
+	
+	
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+</head>
+<body>
+<form action="Crud_Oparetion" method="post">
+	<h1>Sign In</h1>
+	<label class="lab">Name:</label><br> <input class="inpt"type="text" name="name" required> <br>
+	<label class="lab">Email:</label><br> <input class="inpt"type="email" name="email"required> <br>
+	<label class="lab">Password:</label><br> <input class="inpt"type="password" name="password"required> <br>
+	<label class="lab">Country:</label><br> <input class="inpt"type="text" name="country"required> <br>
+	<label class="lab">City:</label><br> <input class="inpt" type="text" name="city"required> <br></br>
+	<button type="submit" style="width: 75px; margin-right: 30px; background-color: green;">Sumbit</button>
+	<input type="reset" name="reset" style="width: 75px;margin-left: 42px; background-color: green;;"><br></br>
+	<p><strong>If already sign up please</strong> <a href="Login.html" style="text-decoration: none; margin: 34px 100px 50px 73px;">Login</a></p>
+	
+</form>
+<br></br>
+
+<a href="DataFetch" style="background-color: transparent; text-decoration: none;"id="div"><b>All employee detial</b></a>
+</body>
+</html>

@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+/* UpdateEMP.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.activescreening.com/wp-content/uploads/2019/07/about_02-1080x581.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color:chocolate;
+    font-family: Georgia;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+table, th, td {
+    border: none;
+    border-radius: 10px;
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align:left;    
+}
+
+th {
+    background-color: #4CAF50;
+    color: #fff;
+}
+button{
+	background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	
+}
+
+form {
+    padding: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color:rebeccapurple
+}

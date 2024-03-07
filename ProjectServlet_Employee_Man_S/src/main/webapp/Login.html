@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	body{
+		background-color: cadetblue;
+	}
+	form{
+		border: solid;
+		width: 20%;
+		text-align: center;
+		background-color:white;
+		padding: 5%;
+		border-radius: 7px;
+		position: absolute;
+		top: 29.2%;
+		left: 35%;
+		-webkit-box-shadow: 0 0 5px 7px #040404;
+    	-moz-box-shadow: 0 0 5px 7px  #040404;
+   		 box-shadow: 0 0 5px 7px #040404;
+   		 
+		
+	}
+	
+	div {
+        margin-bottom: 10px;
+    }
+
+    label {
+        margin-left: 5px;
+        font-weight: bold;
+        font-family: Georgia;
+    }
+
+    input {
+        width: 170px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+</style>
+</head>
+<body>
+	<header> <nav></nav></header>
+	<form action="Login" method='post'>
+		
+			<div>
+			<tr> <td><label style="margin-left: 5px;">Email Id:</label></td> <td><input type="email"name="email" style="width: 170px" required)></div><br>
+			<div>
+			<label>Password:</label></td> <td><input type="password"name="password" required></div><br>
+		
+		<button type="submit"  >Login</button><br></br>
+		<p><strong>Don't have an account? </strong> <a href="sign.html" style="text-decoration: none; margin: 10px 30px 50px 4px;">Sign UP</a></p>
+	</form>
+</html>
